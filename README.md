@@ -11,20 +11,18 @@ The Radiology word vectors can be resued in similar classification scenarios or 
 
 Using a prebuilt model:
 
-Get python 2.7
+1. Get python 2.7
 
-uncompress downloaded model: tar -xvf model.tar.gz
+2. unzip modelname.zip -d destination_folderpath
 
-unzip modelname.zip -d destination_folderpath
-
-Install gensim: pip install gensim
+3. Install gensim: pip install gensim
 
 
-Load model in gensim:
+4. Load model in gensim:
 
-from gensim.models import Word2Vec
+  from gensim.models import Word2Vec
 
-model = Word2Vec.load(modelpath)
+  model = Word2Vec.load(modelpath)
 
-model.similarity('new', 'recent') %used to find the cosine distance
+  model.similarity('new', 'recent') %used to find the cosine distance
 
