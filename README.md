@@ -12,8 +12,11 @@ The Radiology word vectors can be resued in similar classification scenarios or 
 Using a prebuilt model:
 
 Get python 2.7
+
 uncompress downloaded model: tar -xvf model.tar.gz
+
 unzip modelname.zip -d destination_folderpath
+
 Install gensim: pip install gensim
 
 
