@@ -1,5 +1,7 @@
 # RadiologyReportEmbedding
 
+Paper in AMIA 2017: Banerjee, Imon, Sriraman Madhavan, Roger Eric Goldman, and Daniel L. Rubin. "Intelligent Word Embeddings of Free-Text Radiology Reports." In AMIA Annual Symposium Proceedings, vol. 2017, p. 411. American Medical Informatics Association, 2017.
+
 A hybrid strategy that combines semantic-dictionary mapping and word2vec modeling, has been applied to create the word embeddings from ~10,000 CT Head radiology reports.  
 
 We followed the following step: Data set retrieval from PACS, Data Cleaning & Pre-processing, Semantic-dictionary mapping (CLEVER and RadLex terminology), and Word and Report Embedding via Continuous Bag Of Word model. The size of the resulting vocabulary was 4,442 words.
